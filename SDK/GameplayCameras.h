@@ -6,13 +6,25 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: MovieSceneTracks
-/// dependency: TemplateSequence
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "TemplateSequence.h"
 
 #pragma pack(push, 0x1)
+
+class UCompositeCameraShakePattern;
+class UConstantCameraShakePattern;
+class UDefaultCameraShakeBase;
+class UMatineeCameraShake;
+class UMatineeCameraShakeFunctionLibrary;
+class UMatineeCameraShakePattern;
+class UMovieSceneMatineeCameraShakeEvaluator;
+class UPerlinNoiseCameraShakePattern;
+class USimpleCameraShakePattern;
+class UTestCameraShake;
+class UWaveOscillatorCameraShakePattern;
 
 /// Enum /Script/GameplayCameras.EInitialOscillatorOffset
 /// Size: 0x01 (1 bytes)

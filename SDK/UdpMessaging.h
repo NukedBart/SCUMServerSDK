@@ -6,10 +6,12 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UUdpMessagingSettings;
 
 /// Enum /Script/UdpMessaging.EUdpMessageFormat
 /// Size: 0x01 (1 bytes)

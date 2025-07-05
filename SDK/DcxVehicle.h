@@ -6,13 +6,33 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: AnimGraphRuntime
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: PhysicsCore
+#include "BasicType.h"
+#include "AnimGraphRuntime.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "PhysicsCore.h"
 
 #pragma pack(push, 0x1)
+
+class ADcxVehicle;
+class ADcxVehicle4W;
+class ADcxVehicleNW;
+class ADcxVehicleNoDrive;
+class ADcxVehicleTank;
+class UDcxVehicleAnimInstance;
+class UDcxVehicleDriveComponent;
+class UDcxVehicleDriveComponent4W;
+class UDcxVehicleDriveComponentNW;
+class UDcxVehicleDriveComponentTank;
+class UDcxVehicleDriveRawInput;
+class UDcxVehicleDriveRawInput4W;
+class UDcxVehicleDriveRawInputNW;
+class UDcxVehicleDriveRawInputTank;
+class UDcxVehicleNoDriveComponent;
+class UDcxVehicleNoDriveRawInput;
+class UDcxVehicleTire;
+class UDcxVehicleWheelsComponent;
+class UDcxVehicleWheelsRawInput;
 
 /// Enum /Script/DcxVehicle.EDcxVehicleClutchAccuracyMode
 /// Size: 0x01 (1 bytes)

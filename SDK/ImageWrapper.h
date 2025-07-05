@@ -9,6 +9,7 @@
 
 #pragma pack(push, 0x1)
 
+
 /// Enum /Script/ImageWrapper.EBitmapCSType
 /// Size: 0x04 (4 bytes)
 enum class EBitmapCSType : uint32_t

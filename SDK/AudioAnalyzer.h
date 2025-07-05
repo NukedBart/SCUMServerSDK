@@ -6,10 +6,14 @@
 ********************************************************/
 
 #pragma once
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UAudioAnalyzerAsset;
+class UAudioAnalyzerNRT;
+class UAudioAnalyzerNRTSettings;
 
 #pragma pack(pop)
 

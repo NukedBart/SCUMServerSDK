@@ -6,15 +6,126 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
-/// dependency: Engine
-/// dependency: MovieScene
-/// dependency: NiagaraCore
-/// dependency: NiagaraShader
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "NiagaraCore.h"
+#include "NiagaraShader.h"
 
 #pragma pack(push, 0x1)
+
+class ANiagaraActor;
+class ANiagaraPerfBaselineActor;
+class ANiagaraPreviewBase;
+class ANiagaraPreviewGrid;
+class UMovieSceneNiagaraBoolParameterTrack;
+class UMovieSceneNiagaraColorParameterTrack;
+class UMovieSceneNiagaraFloatParameterTrack;
+class UMovieSceneNiagaraIntegerParameterTrack;
+class UMovieSceneNiagaraParameterTrack;
+class UMovieSceneNiagaraSystemSpawnSection;
+class UMovieSceneNiagaraSystemTrack;
+class UMovieSceneNiagaraTrack;
+class UMovieSceneNiagaraVectorParameterTrack;
+class UNiagaraBakerSettings;
+class UNiagaraBaselineController;
+class UNiagaraBaselineController_Basic;
+class UNiagaraComponent;
+class UNiagaraComponentPool;
+class UNiagaraComponentRendererProperties;
+class UNiagaraComponentSettings;
+class UNiagaraConvertInPlaceUtilityBase;
+class UNiagaraDataInterface;
+class UNiagaraDataInterface2DArrayTexture;
+class UNiagaraDataInterfaceArray;
+class UNiagaraDataInterfaceArrayBool;
+class UNiagaraDataInterfaceArrayColor;
+class UNiagaraDataInterfaceArrayFloat;
+class UNiagaraDataInterfaceArrayFloat2;
+class UNiagaraDataInterfaceArrayFloat3;
+class UNiagaraDataInterfaceArrayFloat4;
+class UNiagaraDataInterfaceArrayFunctionLibrary;
+class UNiagaraDataInterfaceArrayInt32;
+class UNiagaraDataInterfaceArrayQuat;
+class UNiagaraDataInterfaceAudioOscilloscope;
+class UNiagaraDataInterfaceAudioPlayer;
+class UNiagaraDataInterfaceAudioSpectrum;
+class UNiagaraDataInterfaceAudioSubmix;
+class UNiagaraDataInterfaceCamera;
+class UNiagaraDataInterfaceCollisionQuery;
+class UNiagaraDataInterfaceColorCurve;
+class UNiagaraDataInterfaceCubeTexture;
+class UNiagaraDataInterfaceCurlNoise;
+class UNiagaraDataInterfaceCurve;
+class UNiagaraDataInterfaceCurveBase;
+class UNiagaraDataInterfaceDebugDraw;
+class UNiagaraDataInterfaceExport;
+class UNiagaraDataInterfaceGBuffer;
+class UNiagaraDataInterfaceGrid2D;
+class UNiagaraDataInterfaceGrid2DCollection;
+class UNiagaraDataInterfaceGrid2DCollectionReader;
+class UNiagaraDataInterfaceGrid3D;
+class UNiagaraDataInterfaceGrid3DCollection;
+class UNiagaraDataInterfaceIntRenderTarget2D;
+class UNiagaraDataInterfaceLandscape;
+class UNiagaraDataInterfaceMeshRendererInfo;
+class UNiagaraDataInterfaceNeighborGrid3D;
+class UNiagaraDataInterfaceOcclusion;
+class UNiagaraDataInterfaceParticleRead;
+class UNiagaraDataInterfacePlatformSet;
+class UNiagaraDataInterfaceRWBase;
+class UNiagaraDataInterfaceRenderTarget2D;
+class UNiagaraDataInterfaceRenderTarget2DArray;
+class UNiagaraDataInterfaceRenderTargetCube;
+class UNiagaraDataInterfaceRenderTargetVolume;
+class UNiagaraDataInterfaceSimpleCounter;
+class UNiagaraDataInterfaceSkeletalMesh;
+class UNiagaraDataInterfaceSpline;
+class UNiagaraDataInterfaceStaticMesh;
+class UNiagaraDataInterfaceTexture;
+class UNiagaraDataInterfaceVector2DCurve;
+class UNiagaraDataInterfaceVector4Curve;
+class UNiagaraDataInterfaceVectorCurve;
+class UNiagaraDataInterfaceVectorField;
+class UNiagaraDataInterfaceVolumeTexture;
+class UNiagaraDebugHUDSettings;
+class UNiagaraEditorDataBase;
+class UNiagaraEditorParametersAdapterBase;
+class UNiagaraEffectType;
+class UNiagaraEmitter;
+class UNiagaraEventReceiverEmitterAction;
+class UNiagaraEventReceiverEmitterAction_SpawnParticles;
+class UNiagaraFunctionLibrary;
+class UNiagaraLightRendererProperties;
+class UNiagaraMeshRendererProperties;
+class UNiagaraMessageDataBase;
+class UNiagaraParameterCollection;
+class UNiagaraParameterCollectionInstance;
+class UNiagaraParameterDefinitionsBase;
+class UNiagaraParticleCallbackHandler;
+class UNiagaraPrecompileContainer;
+class UNiagaraPreviewAxis;
+class UNiagaraPreviewAxis_InterpParamBase;
+class UNiagaraPreviewAxis_InterpParamFloat;
+class UNiagaraPreviewAxis_InterpParamInt32;
+class UNiagaraPreviewAxis_InterpParamLinearColor;
+class UNiagaraPreviewAxis_InterpParamVector;
+class UNiagaraPreviewAxis_InterpParamVector2D;
+class UNiagaraPreviewAxis_InterpParamVector4;
+class UNiagaraRendererProperties;
+class UNiagaraRibbonRendererProperties;
+class UNiagaraScript;
+class UNiagaraScriptSourceBase;
+class UNiagaraSettings;
+class UNiagaraSignificanceHandler;
+class UNiagaraSignificanceHandlerAge;
+class UNiagaraSignificanceHandlerDistance;
+class UNiagaraSimulationStageBase;
+class UNiagaraSimulationStageGeneric;
+class UNiagaraSpriteRendererProperties;
+class UNiagaraSystem;
 
 /// Enum /Script/Niagara.ENiagaraSystemSpawnSectionEndBehavior
 /// Size: 0x04 (4 bytes)

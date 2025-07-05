@@ -6,11 +6,16 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class USCLibrary;
+class USCUE4Settings;
+class USafeGameInstance;
+class USafeGameInstanceSubsystem;
 
 #pragma pack(pop)
 

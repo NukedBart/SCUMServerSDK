@@ -6,15 +6,37 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: GeometryCache
-/// dependency: MovieScene
-/// dependency: Niagara
-/// dependency: NiagaraCore
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "GeometryCache.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "Niagara.h"
+#include "NiagaraCore.h"
 
 #pragma pack(push, 0x1)
+
+class AGroomActor;
+class UGroomAsset;
+class UGroomAssetImportData;
+class UGroomBindingAsset;
+class UGroomBlueprintLibrary;
+class UGroomCache;
+class UGroomCacheImportData;
+class UGroomCacheImportOptions;
+class UGroomComponent;
+class UGroomCreateBindingOptions;
+class UGroomCreateFollicleMaskOptions;
+class UGroomCreateStrandsTexturesOptions;
+class UGroomHairGroupsPreview;
+class UGroomImportOptions;
+class UGroomPluginSettings;
+class UMovieSceneGroomCacheSection;
+class UMovieSceneGroomCacheTrack;
+class UNiagaraDataInterfaceHairStrands;
+class UNiagaraDataInterfacePhysicsAsset;
+class UNiagaraDataInterfacePressureGrid;
+class UNiagaraDataInterfaceVelocityGrid;
 
 /// Enum /Script/HairStrandsCore.EHairCardsSourceType
 /// Size: 0x01 (1 bytes)

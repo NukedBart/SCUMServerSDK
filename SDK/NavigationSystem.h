@@ -6,11 +6,50 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class AAbstractNavData;
+class ANavMeshBoundsVolume;
+class ANavModifierVolume;
+class ANavSystemConfigOverride;
+class ANavigationData;
+class ANavigationGraph;
+class ANavigationGraphNode;
+class ANavigationTestingActor;
+class ARecastNavMesh;
+class UCrowdManagerBase;
+class UNavArea;
+class UNavAreaMeta;
+class UNavAreaMeta_SwitchByAgent;
+class UNavArea_Default;
+class UNavArea_LowHeight;
+class UNavArea_Null;
+class UNavArea_Obstacle;
+class UNavCollision;
+class UNavLinkComponent;
+class UNavLinkCustomComponent;
+class UNavLinkCustomInterface;
+class UNavLinkHostInterface;
+class UNavLinkRenderingComponent;
+class UNavLinkTrivial;
+class UNavMeshRenderingComponent;
+class UNavModifierComponent;
+class UNavNodeInterface;
+class UNavRelevantComponent;
+class UNavTestRenderingComponent;
+class UNavigationGraphNodeComponent;
+class UNavigationInvokerComponent;
+class UNavigationPath;
+class UNavigationPathGenerator;
+class UNavigationQueryFilter;
+class UNavigationSystemModuleConfig;
+class UNavigationSystemV1;
+class URecastFilter_UseDefaultArea;
+class URecastNavMeshDataChunk;
 
 /// Enum /Script/NavigationSystem.ERuntimeGenerationType
 /// Size: 0x01 (1 bytes)

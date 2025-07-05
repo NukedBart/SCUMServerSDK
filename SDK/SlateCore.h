@@ -6,10 +6,18 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UFontBulkData;
+class UFontFaceInterface;
+class UFontProviderInterface;
+class USlateTypes;
+class USlateWidgetStyleAsset;
+class USlateWidgetStyleContainerBase;
+class USlateWidgetStyleContainerInterface;
 
 /// Enum /Script/SlateCore.EUINavigation
 /// Size: 0x01 (1 bytes)

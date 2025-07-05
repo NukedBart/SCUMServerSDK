@@ -6,12 +6,18 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: LiveLinkInterface
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "LiveLinkInterface.h"
 
 #pragma pack(push, 0x1)
+
+class ULiveLinkComponentController;
+class ULiveLinkComponentSettings;
+class ULiveLinkControllerBase;
+class ULiveLinkLightController;
+class ULiveLinkTransformController;
 
 #pragma pack(pop)
 

@@ -6,15 +6,30 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
-/// dependency: Engine
-/// dependency: MediaAssets
-/// dependency: MovieScene
-/// dependency: UMG
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "MediaAssets.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class ALevelSequenceActor;
+class ALevelSequenceMediaController;
+class UAnimSequenceLevelSequenceLink;
+class UDefaultLevelSequenceInstanceData;
+class ULegacyLevelSequenceDirectorBlueprint;
+class ULevelSequence;
+class ULevelSequenceAnimSequenceLink;
+class ULevelSequenceBurnIn;
+class ULevelSequenceBurnInInitSettings;
+class ULevelSequenceBurnInOptions;
+class ULevelSequenceDirector;
+class ULevelSequenceMetaData;
+class ULevelSequencePlayer;
+class ULevelSequenceProjectSettings;
 
 #pragma pack(pop)
 

@@ -6,12 +6,17 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: ClothingSystemRuntimeCommon
-/// dependency: ClothingSystemRuntimeInterface
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "ClothingSystemRuntimeCommon.h"
+#include "ClothingSystemRuntimeInterface.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UClothConfigNv;
+class UClothPhysicalMeshDataNv_Legacy;
+class UClothingSimulationFactoryNv;
+class UClothingSimulationInteractorNv;
 
 /// Enum /Script/ClothingSystemRuntimeNv.EClothingWindMethodNv
 /// Size: 0x01 (1 bytes)

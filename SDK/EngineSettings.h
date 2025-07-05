@@ -6,10 +6,18 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UConsoleSettings;
+class UGameMapsSettings;
+class UGameNetworkManagerSettings;
+class UGameSessionSettings;
+class UGeneralEngineSettings;
+class UGeneralProjectSettings;
+class UHudSettings;
 
 /// Enum /Script/EngineSettings.ESubLevelStripMode
 /// Size: 0x01 (1 bytes)

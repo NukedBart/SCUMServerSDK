@@ -6,11 +6,12 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: LiveLinkInterface
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "LiveLinkInterface.h"
 
 #pragma pack(push, 0x1)
+
 
 #pragma pack(pop)
 

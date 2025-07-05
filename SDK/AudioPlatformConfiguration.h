@@ -9,6 +9,7 @@
 
 #pragma pack(push, 0x1)
 
+
 /// Enum /Script/AudioPlatformConfiguration.ESoundwaveSampleRateSettings
 /// Size: 0x01 (1 bytes)
 enum class ESoundwaveSampleRateSettings : uint8_t

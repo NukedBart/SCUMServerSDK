@@ -6,9 +6,11 @@
 ********************************************************/
 
 #pragma once
-/// dependency: CoreUObject
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UAvfMediaSettings;
 
 #pragma pack(pop)
 

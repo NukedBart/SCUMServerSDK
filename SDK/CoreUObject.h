@@ -6,9 +6,66 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
+#include "BasicType.h"
 
 #pragma pack(push, 0x1)
+
+class UArrayProperty;
+class UBoolProperty;
+class UByteProperty;
+class UClass;
+class UClassProperty;
+class UDelegateFunction;
+class UDelegateProperty;
+class UDoubleProperty;
+class UDynamicClass;
+class UEnum;
+class UEnumProperty;
+class UField;
+class UFloatProperty;
+class UFunction;
+class UGCObjectReferencer;
+class UInt16Property;
+class UInt64Property;
+class UInt8Property;
+class UIntProperty;
+class UInterface;
+class UInterfaceProperty;
+class ULazyObjectProperty;
+class ULinkerPlaceholderClass;
+class ULinkerPlaceholderExportObject;
+class ULinkerPlaceholderFunction;
+class UMapProperty;
+class UMetaData;
+class UMulticastDelegateProperty;
+class UMulticastDelegatePropertyWrapper;
+class UMulticastInlineDelegateProperty;
+class UMulticastInlineDelegatePropertyWrapper;
+class UMulticastSparseDelegateProperty;
+class UNameProperty;
+class UNumericProperty;
+class UObject;
+class UObjectProperty;
+class UObjectPropertyBase;
+class UObjectRedirector;
+class UPackage;
+class UPackageMap;
+class UProperty;
+class UPropertyWrapper;
+class UScriptStruct;
+class USetProperty;
+class USoftClassProperty;
+class USoftObjectProperty;
+class USparseDelegateFunction;
+class UStrProperty;
+class UStruct;
+class UStructProperty;
+class UTextBuffer;
+class UTextProperty;
+class UUInt16Property;
+class UUInt32Property;
+class UUInt64Property;
+class UWeakObjectProperty;
 
 /// Enum /Script/CoreUObject.EInterpCurveMode
 /// Size: 0x01 (1 bytes)

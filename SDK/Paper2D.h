@@ -6,12 +6,36 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: SlateCore
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "SlateCore.h"
 
 #pragma pack(push, 0x1)
+
+class APaperCharacter;
+class APaperFlipbookActor;
+class APaperGroupedSpriteActor;
+class APaperSpriteActor;
+class APaperTerrainActor;
+class APaperTileMapActor;
+class UMaterialExpressionSpriteTextureSampler;
+class UPaperFlipbook;
+class UPaperFlipbookComponent;
+class UPaperGroupedSpriteComponent;
+class UPaperRuntimeSettings;
+class UPaperSprite;
+class UPaperSpriteAtlas;
+class UPaperSpriteBlueprintLibrary;
+class UPaperSpriteComponent;
+class UPaperTerrainComponent;
+class UPaperTerrainMaterial;
+class UPaperTerrainSplineComponent;
+class UPaperTileLayer;
+class UPaperTileMap;
+class UPaperTileMapComponent;
+class UPaperTileSet;
+class UTileMapBlueprintLibrary;
 
 /// Enum /Script/Paper2D.EFlipbookCollisionMode
 /// Size: 0x01 (1 bytes)

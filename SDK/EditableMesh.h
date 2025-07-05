@@ -6,13 +6,19 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: GeometryCollectionEngine
-/// dependency: MeshDescription
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "GeometryCollectionEngine.h"
+#include "MeshDescription.h"
 
 #pragma pack(push, 0x1)
+
+class UEditableGeometryCollectionAdapter;
+class UEditableMesh;
+class UEditableMeshAdapter;
+class UEditableMeshFactory;
+class UEditableStaticMeshAdapter;
 
 /// Enum /Script/EditableMesh.ETriangleTessellationMode
 /// Size: 0x01 (1 bytes)

@@ -6,12 +6,28 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UBlueprintGameplayTagLibrary;
+class UEditableGameplayTagQuery;
+class UEditableGameplayTagQueryExpression;
+class UEditableGameplayTagQueryExpression_AllExprMatch;
+class UEditableGameplayTagQueryExpression_AllTagsMatch;
+class UEditableGameplayTagQueryExpression_AnyExprMatch;
+class UEditableGameplayTagQueryExpression_AnyTagsMatch;
+class UEditableGameplayTagQueryExpression_NoExprMatch;
+class UEditableGameplayTagQueryExpression_NoTagsMatch;
+class UGameplayTagAssetInterface;
+class UGameplayTagsDeveloperSettings;
+class UGameplayTagsList;
+class UGameplayTagsManager;
+class UGameplayTagsSettings;
+class URestrictedGameplayTagsList;
 
 /// Enum /Script/GameplayTags.EGameplayTagQueryExprType
 /// Size: 0x01 (1 bytes)

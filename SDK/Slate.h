@@ -6,12 +6,26 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: InputCore
-/// dependency: SlateCore
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "InputCore.h"
+#include "SlateCore.h"
 
 #pragma pack(push, 0x1)
+
+class UButtonWidgetStyle;
+class UCheckBoxWidgetStyle;
+class UComboBoxWidgetStyle;
+class UComboButtonWidgetStyle;
+class UEditableTextBoxWidgetStyle;
+class UEditableTextWidgetStyle;
+class UProgressWidgetStyle;
+class UScrollBarWidgetStyle;
+class UScrollBoxWidgetStyle;
+class USlateSettings;
+class USpinBoxWidgetStyle;
+class UTextBlockWidgetStyle;
+class UToolMenuBase;
 
 /// Enum /Script/Slate.ETextJustify
 /// Size: 0x01 (1 bytes)

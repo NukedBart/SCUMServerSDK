@@ -6,12 +6,18 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: ClothingSystemRuntimeInterface
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "ClothingSystemRuntimeInterface.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UClothConfigCommon;
+class UClothLODDataCommon_Legacy;
+class UClothSharedConfigCommon;
+class UClothingAssetCommon;
+class UClothingAssetCustomData;
 
 /// Enum /Script/ClothingSystemRuntimeCommon.EClothMassMode
 /// Size: 0x01 (1 bytes)

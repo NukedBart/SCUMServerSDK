@@ -6,10 +6,13 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UNamedInterfaces;
+class UTurnBasedMatchInterface;
 
 /// Enum /Script/OnlineSubsystem.EInAppPurchaseState
 /// Size: 0x01 (1 bytes)

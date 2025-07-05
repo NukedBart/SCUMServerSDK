@@ -6,12 +6,51 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: InteractiveToolsFramework
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "InteractiveToolsFramework.h"
 
 #pragma pack(push, 0x1)
+
+class APreviewGeometryActor;
+class APreviewMeshActor;
+class UBaseCreateFromSelectedHandleSourceProperties;
+class UBaseCreateFromSelectedTool;
+class UBaseCreateFromSelectedToolBuilder;
+class UBaseDynamicMeshComponent;
+class UBaseMeshProcessingTool;
+class UBaseMeshProcessingToolBuilder;
+class UBaseVoxelTool;
+class UCollectSurfacePathMechanic;
+class UConstructionPlaneMechanic;
+class UCurveControlPointsMechanic;
+class UDynamicMeshReplacementChangeTarget;
+class ULineSetComponent;
+class UMeshCommandChangeTarget;
+class UMeshOpPreviewWithBackgroundCompute;
+class UMeshReplacementCommandChangeTarget;
+class UMeshVertexCommandChangeTarget;
+class UMultiTransformer;
+class UOctreeDynamicMeshComponent;
+class UOnAcceptHandleSourcesProperties;
+class UPlaneDistanceFromHitMechanic;
+class UPointSetComponent;
+class UPolyEditPreviewMesh;
+class UPolygonSelectionMechanic;
+class UPolygonSelectionMechanicProperties;
+class UPreviewGeometry;
+class UPreviewMesh;
+class USimpleDynamicMeshComponent;
+class USpaceCurveDeformationMechanic;
+class USpaceCurveDeformationMechanicPropertySet;
+class USpatialCurveDistanceMechanic;
+class UTransformInputsToolProperties;
+class UTriangleSetComponent;
+class UUVLayoutPreview;
+class UUVLayoutPreviewProperties;
+class UVoxelProperties;
+class UWeightMapSetProperties;
 
 /// Enum /Script/ModelingComponents.EBaseCreateFromSelectedTargetType
 /// Size: 0x04 (4 bytes)

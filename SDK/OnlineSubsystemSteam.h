@@ -6,12 +6,16 @@
 ********************************************************/
 
 #pragma once
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: OnlineSubsystemUtils
-/// dependency: PacketHandler
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "OnlineSubsystemUtils.h"
+#include "PacketHandler.h"
 
 #pragma pack(push, 0x1)
+
+class USteamAuthComponentModuleInterface;
+class USteamNetConnection;
+class USteamNetDriver;
 
 #pragma pack(pop)
 

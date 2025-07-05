@@ -6,13 +6,27 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: AudioMixer
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: MediaUtils
+#include "BasicType.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "MediaUtils.h"
 
 #pragma pack(push, 0x1)
+
+class UBaseMediaSource;
+class UFileMediaSource;
+class UMediaBlueprintFunctionLibrary;
+class UMediaComponent;
+class UMediaPlayer;
+class UMediaPlaylist;
+class UMediaSoundComponent;
+class UMediaSource;
+class UMediaTexture;
+class UMediaTimeStampInfo;
+class UPlatformMediaSource;
+class UStreamMediaSource;
+class UTimeSynchronizableMediaSource;
 
 /// Enum /Script/MediaAssets.EMediaWebcamCaptureDeviceFilter
 /// Size: 0x01 (1 bytes)

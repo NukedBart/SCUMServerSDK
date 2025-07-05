@@ -6,10 +6,13 @@
 ********************************************************/
 
 #pragma once
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class ULocationServices;
+class ULocationServicesImpl;
 
 /// Enum /Script/LocationServicesBPLibrary.ELocationAccuracy
 /// Size: 0x01 (1 bytes)

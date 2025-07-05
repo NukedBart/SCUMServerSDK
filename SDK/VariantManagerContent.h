@@ -6,11 +6,26 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class ALevelVariantSetsActor;
+class ASwitchActor;
+class ULevelVariantSets;
+class ULevelVariantSetsFunctionDirector;
+class UPropertyValue;
+class UPropertyValueColor;
+class UPropertyValueMaterial;
+class UPropertyValueOption;
+class UPropertyValueSoftObject;
+class UPropertyValueTransform;
+class UPropertyValueVisibility;
+class UVariant;
+class UVariantObjectBinding;
+class UVariantSet;
 
 /// Enum /Script/VariantManagerContent.EPropertyValueCategory
 /// Size: 0x01 (1 bytes)

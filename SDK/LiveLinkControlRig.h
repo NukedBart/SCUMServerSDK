@@ -6,13 +6,14 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: ControlRig
-/// dependency: CoreUObject
-/// dependency: LiveLinkInterface
-/// dependency: RigVM
+#include "BasicType.h"
+#include "ControlRig.h"
+#include "CoreUObject.h"
+#include "LiveLinkInterface.h"
+#include "RigVM.h"
 
 #pragma pack(push, 0x1)
+
 
 #pragma pack(pop)
 

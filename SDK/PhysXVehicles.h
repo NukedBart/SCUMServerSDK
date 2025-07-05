@@ -6,13 +6,21 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: AnimGraphRuntime
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: PhysicsCore
+#include "BasicType.h"
+#include "AnimGraphRuntime.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "PhysicsCore.h"
 
 #pragma pack(push, 0x1)
+
+class AWheeledVehicle;
+class USimpleWheeledVehicleMovementComponent;
+class UTireConfig;
+class UVehicleAnimInstance;
+class UVehicleWheel;
+class UWheeledVehicleMovementComponent;
+class UWheeledVehicleMovementComponent4W;
 
 /// Enum /Script/PhysXVehicles.EWheelSweepType
 /// Size: 0x01 (1 bytes)

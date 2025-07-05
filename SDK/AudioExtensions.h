@@ -6,9 +6,20 @@
 ********************************************************/
 
 #pragma once
-/// dependency: CoreUObject
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UAudioEndpointSettingsBase;
+class UDummyEndpointSettings;
+class UOcclusionPluginSourceSettingsBase;
+class UReverbPluginSourceSettingsBase;
+class USoundModulatorBase;
+class USoundfieldEffectBase;
+class USoundfieldEffectSettingsBase;
+class USoundfieldEncodingSettingsBase;
+class USoundfieldEndpointSettingsBase;
+class USpatializationPluginSourceSettingsBase;
 
 #pragma pack(pop)
 

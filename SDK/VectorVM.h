@@ -9,6 +9,7 @@
 
 #pragma pack(push, 0x1)
 
+
 /// Enum /Script/VectorVM.EVectorVMOp
 /// Size: 0x01 (1 bytes)
 enum class EVectorVMOp : uint8_t

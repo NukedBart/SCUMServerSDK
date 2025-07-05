@@ -6,10 +6,12 @@
 ********************************************************/
 
 #pragma once
-/// dependency: CoreUObject
-/// dependency: Renderer
+#include "CoreUObject.h"
+#include "Renderer.h"
 
 #pragma pack(push, 0x1)
+
+class ULightPropagationVolumeBlendable;
 
 #pragma pack(pop)
 

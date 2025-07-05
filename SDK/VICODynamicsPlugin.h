@@ -6,11 +6,30 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class AVDSimulationSettingsActor;
+class AVDWindDirectionalSourceActor;
+class UBaseVDComponent;
+class UVDBlueprintFunctionLibrary;
+class UVDColliderComponent;
+class UVDDynamicRopeComponent;
+class UVDMeshClothComponent;
+class UVDMeshVolumeConstraint;
+class UVDParticleSpringConstraint;
+class UVDProceduralClothComponent;
+class UVDRopeComponent;
+class UVDSimulatedObject;
+class UVDSimulatedParticle;
+class UVDSimulation;
+class UVDSkinnedRopeComponent;
+class UVDSplineRopeComponent;
+class UVDWindDirectionalSourceComponent;
+class UVICODynamicsSettings;
 
 #pragma pack(pop)
 

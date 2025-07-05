@@ -6,13 +6,57 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CinematicCamera
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: LevelSequence
+#include "BasicType.h"
+#include "CinematicCamera.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "LevelSequence.h"
 
 #pragma pack(push, 0x1)
+
+class ADatasmithAreaLightActor;
+class ADatasmithImportedSequencesActor;
+class ADatasmithSceneActor;
+class UDatasmithActorTemplate;
+class UDatasmithAdditionalData;
+class UDatasmithAreaLightActorTemplate;
+class UDatasmithAssetImportData;
+class UDatasmithAssetUserData;
+class UDatasmithCADImportSceneData;
+class UDatasmithCineCameraActorTemplate;
+class UDatasmithCineCameraComponentTemplate;
+class UDatasmithCommonTessellationOptions;
+class UDatasmithContentBlueprintLibrary;
+class UDatasmithCustomActionBase;
+class UDatasmithDecalComponentTemplate;
+class UDatasmithDeltaGenAssetImportData;
+class UDatasmithDeltaGenSceneImportData;
+class UDatasmithFBXSceneImportData;
+class UDatasmithGLTFSceneImportData;
+class UDatasmithIFCSceneImportData;
+class UDatasmithImportOptions;
+class UDatasmithLandscapeTemplate;
+class UDatasmithLightComponentTemplate;
+class UDatasmithMDLSceneImportData;
+class UDatasmithMaterialInstanceTemplate;
+class UDatasmithObjectTemplate;
+class UDatasmithOptionsBase;
+class UDatasmithPointLightComponentTemplate;
+class UDatasmithPostProcessVolumeTemplate;
+class UDatasmithScene;
+class UDatasmithSceneComponentTemplate;
+class UDatasmithSceneImportData;
+class UDatasmithSkyLightComponentTemplate;
+class UDatasmithSpotLightComponentTemplate;
+class UDatasmithStaticMeshCADImportData;
+class UDatasmithStaticMeshComponentTemplate;
+class UDatasmithStaticMeshGLTFImportData;
+class UDatasmithStaticMeshIFCImportData;
+class UDatasmithStaticMeshImportData;
+class UDatasmithStaticMeshTemplate;
+class UDatasmithTranslatedSceneImportData;
+class UDatasmithVREDAssetImportData;
+class UDatasmithVREDSceneImportData;
 
 /// Enum /Script/DatasmithContent.EDatasmithAreaLightActorType
 /// Size: 0x01 (1 bytes)

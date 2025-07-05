@@ -6,10 +6,14 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UPropertyAccess;
+class UPropertyEventBroadcaster;
+class UPropertyEventSubscriber;
 
 /// Enum /Script/PropertyAccess.EPropertyAccessCopyBatch
 /// Size: 0x01 (1 bytes)

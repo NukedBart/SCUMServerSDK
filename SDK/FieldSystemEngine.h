@@ -6,12 +6,40 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: Chaos
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "Chaos.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class AFieldSystemActor;
+class UBoxFalloff;
+class UCullingField;
+class UFieldNodeBase;
+class UFieldNodeFloat;
+class UFieldNodeInt;
+class UFieldNodeVector;
+class UFieldSystem;
+class UFieldSystemComponent;
+class UFieldSystemMetaData;
+class UFieldSystemMetaDataFilter;
+class UFieldSystemMetaDataIteration;
+class UFieldSystemMetaDataProcessingResolution;
+class UNoiseField;
+class UOperatorField;
+class UPlaneFalloff;
+class URadialFalloff;
+class URadialIntMask;
+class URadialVector;
+class URandomVector;
+class UReturnResultsTerminal;
+class UToFloatField;
+class UToIntegerField;
+class UUniformInteger;
+class UUniformScalar;
+class UUniformVector;
+class UWaveScalar;
 
 #pragma pack(pop)
 

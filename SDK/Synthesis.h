@@ -6,15 +6,50 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: AudioExtensions
-/// dependency: AudioMixer
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: SlateCore
-/// dependency: UMG
+#include "BasicType.h"
+#include "AudioExtensions.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "SlateCore.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UAudioImpulseResponse;
+class UEnvelopeFollowerListener;
+class UGranularSynth;
+class UModularSynthComponent;
+class UModularSynthLibrary;
+class UModularSynthPresetBank;
+class UMonoWaveTableSynthPreset;
+class USourceEffectBitCrusherPreset;
+class USourceEffectChorusPreset;
+class USourceEffectDynamicsProcessorPreset;
+class USourceEffectEQPreset;
+class USourceEffectEnvelopeFollowerPreset;
+class USourceEffectFilterPreset;
+class USourceEffectFoldbackDistortionPreset;
+class USourceEffectMidSideSpreaderPreset;
+class USourceEffectPannerPreset;
+class USourceEffectPhaserPreset;
+class USourceEffectRingModulationPreset;
+class USourceEffectSimpleDelayPreset;
+class USourceEffectStereoDelayPreset;
+class USourceEffectWaveShaperPreset;
+class USubmixEffectConvolutionReverbPreset;
+class USubmixEffectDelayPreset;
+class USubmixEffectFilterPreset;
+class USubmixEffectFlexiverbPreset;
+class USubmixEffectMultibandCompressorPreset;
+class USubmixEffectStereoDelayPreset;
+class USubmixEffectTapDelayPreset;
+class USynth2DSlider;
+class USynthComponentMonoWaveTable;
+class USynthComponentToneGenerator;
+class USynthKnob;
+class USynthSamplePlayer;
+class USynthesisUtilitiesBlueprintFunctionLibrary;
 
 /// Enum /Script/Synthesis.ESynth1PatchDestination
 /// Size: 0x01 (1 bytes)

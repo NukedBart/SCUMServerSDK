@@ -6,9 +6,12 @@
 ********************************************************/
 
 #pragma once
-/// dependency: CoreUObject
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UStreamlineOverrideSettings;
+class UStreamlineSettings;
 
 /// Enum /Script/StreamlineRHI.EStreamlineSettingOverride
 /// Size: 0x01 (1 bytes)

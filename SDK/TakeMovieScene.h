@@ -6,12 +6,16 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: MovieScene
-/// dependency: MovieSceneTracks
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UMovieSceneTakeSection;
+class UMovieSceneTakeSettings;
+class UMovieSceneTakeTrack;
 
 #pragma pack(pop)
 

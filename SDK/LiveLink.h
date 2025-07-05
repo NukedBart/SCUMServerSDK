@@ -6,13 +6,35 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: LiveLinkInterface
-/// dependency: TimeManagement
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "LiveLinkInterface.h"
+#include "TimeManagement.h"
 
 #pragma pack(push, 0x1)
+
+class ULiveLinkAnimationAxisSwitchPreProcessor;
+class ULiveLinkAnimationFrameInterpolationProcessor;
+class ULiveLinkAnimationRoleToTransform;
+class ULiveLinkAnimationVirtualSubject;
+class ULiveLinkBasicFrameInterpolationProcessor;
+class ULiveLinkBlueprintLibrary;
+class ULiveLinkBlueprintVirtualSubject;
+class ULiveLinkComponent;
+class ULiveLinkDrivenComponent;
+class ULiveLinkInstance;
+class ULiveLinkMessageBusFinder;
+class ULiveLinkMessageBusSourceFactory;
+class ULiveLinkMessageBusSourceSettings;
+class ULiveLinkPreset;
+class ULiveLinkRemapAsset;
+class ULiveLinkRetargetAsset;
+class ULiveLinkSettings;
+class ULiveLinkTimeSynchronizationSource;
+class ULiveLinkTimecodeProvider;
+class ULiveLinkTransformAxisSwitchPreProcessor;
+class ULiveLinkVirtualSubjectSourceSettings;
 
 /// Enum /Script/LiveLink.ELiveLinkAxis
 /// Size: 0x01 (1 bytes)

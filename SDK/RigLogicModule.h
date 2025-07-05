@@ -6,13 +6,15 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: ControlRig
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: RigVM
+#include "BasicType.h"
+#include "ControlRig.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "RigVM.h"
 
 #pragma pack(push, 0x1)
+
+class UDNAAsset;
 
 /// Enum /Script/RigLogicModule.EDNADataLayer
 /// Size: 0x01 (1 bytes)

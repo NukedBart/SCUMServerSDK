@@ -6,12 +6,18 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: Chaos
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
+#include "BasicType.h"
+#include "Chaos.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
 
 #pragma pack(push, 0x1)
+
+class UBodySetupCore;
+class UChaosPhysicalMaterial;
+class UPhysicalMaterial;
+class UPhysicalMaterialPropertyBase;
+class UPhysicsSettingsCore;
 
 /// Enum /Script/PhysicsCore.ERadialImpulseFalloff
 /// Size: 0x01 (1 bytes)

@@ -6,11 +6,17 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UGridlyBPFunctionLibrary;
+class UGridlyDataTable;
+class UGridlyGameSettings;
+class UGridlyTask_DownloadLocalizedTexts;
+class UGridlyTask_ImportDataTableFromGridly;
 
 /// Enum /Script/Gridly.EGridlyColumnDataType
 /// Size: 0x01 (1 bytes)

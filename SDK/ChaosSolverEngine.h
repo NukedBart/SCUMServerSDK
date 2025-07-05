@@ -6,13 +6,22 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: Chaos
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
-/// dependency: Engine
+#include "BasicType.h"
+#include "Chaos.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class AChaosSolverActor;
+class UChaosDebugDrawComponent;
+class UChaosEventListenerComponent;
+class UChaosGameplayEventDispatcher;
+class UChaosNotifyHandlerInterface;
+class UChaosSolver;
+class UChaosSolverEngineBlueprintLibrary;
+class UChaosSolverSettings;
 
 /// Enum /Script/ChaosSolverEngine.EClusterConnectionTypeEnum
 /// Size: 0x01 (1 bytes)

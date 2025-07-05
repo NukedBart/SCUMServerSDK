@@ -6,14 +6,57 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: AudioMixer
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
-/// dependency: Engine
-/// dependency: OnlineSubsystem
+#include "BasicType.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "OnlineSubsystem.h"
 
 #pragma pack(push, 0x1)
+
+class AOnlineBeacon;
+class AOnlineBeaconClient;
+class AOnlineBeaconHost;
+class AOnlineBeaconHostObject;
+class APartyBeaconClient;
+class APartyBeaconHost;
+class ASpectatorBeaconClient;
+class ASpectatorBeaconHost;
+class ATestBeaconClient;
+class ATestBeaconHost;
+class UAchievementBlueprintLibrary;
+class UAchievementQueryCallbackProxy;
+class UAchievementWriteCallbackProxy;
+class UConnectionCallbackProxy;
+class UCreateSessionCallbackProxy;
+class UDestroySessionCallbackProxy;
+class UEndMatchCallbackProxy;
+class UEndTurnCallbackProxy;
+class UFindSessionsCallbackProxy;
+class UFindTurnBasedMatchCallbackProxy;
+class UInAppPurchaseCallbackProxy;
+class UInAppPurchaseCallbackProxy2;
+class UInAppPurchaseQueryCallbackProxy;
+class UInAppPurchaseQueryCallbackProxy2;
+class UInAppPurchaseRestoreCallbackProxy;
+class UInAppPurchaseRestoreCallbackProxy2;
+class UIpConnection;
+class UIpNetDriver;
+class UJoinSessionCallbackProxy;
+class ULeaderboardBlueprintLibrary;
+class ULeaderboardFlushCallbackProxy;
+class ULeaderboardQueryCallbackProxy;
+class ULogoutCallbackProxy;
+class UOnlineEngineInterfaceImpl;
+class UOnlinePIESettings;
+class UOnlineSessionClient;
+class UPartyBeaconState;
+class UQuitMatchCallbackProxy;
+class UShowLoginUICallbackProxy;
+class USpectatorBeaconState;
+class UTurnBasedBlueprintLibrary;
+class UVoipListenerSynthComponent;
 
 /// Enum /Script/OnlineSubsystemUtils.EInAppPurchaseStatus
 /// Size: 0x01 (1 bytes)

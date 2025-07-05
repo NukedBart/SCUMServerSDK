@@ -6,11 +6,13 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: MeshDescription
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "MeshDescription.h"
 
 #pragma pack(push, 0x1)
+
+class UStaticMeshDescription;
 
 #pragma pack(pop)
 

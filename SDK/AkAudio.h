@@ -6,16 +6,119 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: MovieScene
-/// dependency: SlateCore
-/// dependency: UMG
-/// dependency: WwiseObjectUtils
-/// dependency: WwiseResourceLoader
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "SlateCore.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "WwiseObjectUtils.h"
+#include "WwiseResourceLoader.h"
 
 #pragma pack(push, 0x1)
+
+class AAkAcousticPortal;
+class AAkAmbientSound;
+class AAkReverbVolume;
+class AAkSpatialAudioVolume;
+class AAkSpotReflector;
+class UAkAcousticTexture;
+class UAkAcousticTextureSetComponent;
+class UAkAndroidInitializationSettings;
+class UAkAndroidPlatformInfo;
+class UAkAssetData;
+class UAkAssetPlatformData;
+class UAkAudioBank;
+class UAkAudioEvent;
+class UAkAudioInputComponent;
+class UAkAudioType;
+class UAkAuxBus;
+class UAkCallbackInfo;
+class UAkCheckBox;
+class UAkComponent;
+class UAkDPXInitializationSettings;
+class UAkDurationCallbackInfo;
+class UAkEffectShareSet;
+class UAkEventCallbackInfo;
+class UAkExternalMediaAsset;
+class UAkFolder;
+class UAkGameObject;
+class UAkGameplayStatics;
+class UAkGeometryComponent;
+class UAkGroupValue;
+class UAkHololensInitializationSettings;
+class UAkHololensPlatformInfo;
+class UAkIOSInitializationSettings;
+class UAkIOSPlatformInfo;
+class UAkInitBank;
+class UAkItemBoolProperties;
+class UAkItemBoolPropertiesConv;
+class UAkItemProperties;
+class UAkItemPropertiesConv;
+class UAkLateReverbComponent;
+class UAkLinuxInitializationSettings;
+class UAkLinuxPlatformInfo;
+class UAkLocalizedMediaAsset;
+class UAkMIDIEventCallbackInfo;
+class UAkMPXInitializationSettings;
+class UAkMacInitializationSettings;
+class UAkMacPlatformInfo;
+class UAkMarkerCallbackInfo;
+class UAkMediaAsset;
+class UAkMediaAssetData;
+class UAkMusicSyncCallbackInfo;
+class UAkPS4InitializationSettings;
+class UAkPS4PlatformInfo;
+class UAkPS5InitializationSettings;
+class UAkPS5PlatformInfo;
+class UAkPlatformInfo;
+class UAkPlatformInitialisationSettingsBase;
+class UAkPortalComponent;
+class UAkRoomComponent;
+class UAkRtpc;
+class UAkSettings;
+class UAkSettingsPerUser;
+class UAkSlider;
+class UAkStateValue;
+class UAkSubmixInputComponent;
+class UAkSurfaceReflectorSetComponent;
+class UAkSwitchValue;
+class UAkTVOSInitializationSettings;
+class UAkTVOSPlatformInfo;
+class UAkTrigger;
+class UAkWaapiCalls;
+class UAkWaapiJsonManager;
+class UAkWaapiUriConv;
+class UAkWin32PlatformInfo;
+class UAkWin64PlatformInfo;
+class UAkWinAnvilInitializationSettings;
+class UAkWinAnvilPlatformInfo;
+class UAkWinGDKInitializationSettings;
+class UAkWinGDKPlatformInfo;
+class UAkWindowsInitializationSettings;
+class UAkWindowsPlatformInfo;
+class UAkWwiseTree;
+class UAkWwiseTreeSelector;
+class UAkXB1InitializationSettings;
+class UAkXB1PlatformInfo;
+class UAkXSXInitializationSettings;
+class UAkXSXPlatformInfo;
+class UAkXboxOneAnvilInitializationSettings;
+class UAkXboxOneAnvilPlatformInfo;
+class UAkXboxOneGDKInitializationSettings;
+class UAkXboxOneGDKPlatformInfo;
+class UAkXboxOneInitializationSettings;
+class UAkXboxOnePlatformInfo;
+class UDrawPortalComponent;
+class UDrawRoomComponent;
+class UMovieSceneAkAudioEventSection;
+class UMovieSceneAkAudioEventTrack;
+class UMovieSceneAkAudioRTPCSection;
+class UMovieSceneAkAudioRTPCTrack;
+class UMovieSceneAkTrack;
+class UPostEventAsync;
+class UPostEventAtLocationAsync;
+class USAkWaapiFieldNamesConv;
 
 /// Enum /Script/AkAudio.EAkCallbackType
 /// Size: 0x01 (1 bytes)

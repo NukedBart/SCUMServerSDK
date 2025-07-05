@@ -6,11 +6,16 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UImportedSoundWave;
+class UPreImportedSoundAsset;
+class URuntimeAudioCompressor;
+class URuntimeAudioImporterLibrary;
 
 /// Enum /Script/RuntimeAudioImporter.ETranscodingStatus
 /// Size: 0x01 (1 bytes)

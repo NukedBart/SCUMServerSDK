@@ -9,6 +9,7 @@
 
 #pragma pack(push, 0x1)
 
+
 /// Enum /Script/ModelingOperators.ECSGOperation
 /// Size: 0x01 (1 bytes)
 enum class ECSGOperation : uint8_t

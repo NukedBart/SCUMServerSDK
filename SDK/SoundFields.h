@@ -6,10 +6,12 @@
 ********************************************************/
 
 #pragma once
-/// dependency: AudioExtensions
-/// dependency: CoreUObject
+#include "AudioExtensions.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UAmbisonicsEncodingSettings;
 
 #pragma pack(pop)
 

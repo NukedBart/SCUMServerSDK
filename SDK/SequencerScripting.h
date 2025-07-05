@@ -6,13 +6,41 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: MovieScene
-/// dependency: MovieSceneTracks
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UMovieSceneBindingExtensions;
+class UMovieSceneEventTrackExtensions;
+class UMovieSceneFolderExtensions;
+class UMovieScenePropertyTrackExtensions;
+class UMovieSceneScriptingActorReferenceChannel;
+class UMovieSceneScriptingActorReferenceKey;
+class UMovieSceneScriptingBoolChannel;
+class UMovieSceneScriptingBoolKey;
+class UMovieSceneScriptingByteChannel;
+class UMovieSceneScriptingByteKey;
+class UMovieSceneScriptingChannel;
+class UMovieSceneScriptingEventChannel;
+class UMovieSceneScriptingEventKey;
+class UMovieSceneScriptingFloatChannel;
+class UMovieSceneScriptingFloatKey;
+class UMovieSceneScriptingIntegerChannel;
+class UMovieSceneScriptingIntegerKey;
+class UMovieSceneScriptingKey;
+class UMovieSceneScriptingObjectPathChannel;
+class UMovieSceneScriptingObjectPathKey;
+class UMovieSceneScriptingStringChannel;
+class UMovieSceneScriptingStringKey;
+class UMovieSceneSectionExtensions;
+class UMovieSceneSequenceExtensions;
+class UMovieSceneTrackExtensions;
+class UMovieSceneVectorTrackExtensions;
+class USequencerScriptingRangeExtensions;
 
 /// Enum /Script/SequencerScripting.ESequenceTimeUnit
 /// Size: 0x01 (1 bytes)

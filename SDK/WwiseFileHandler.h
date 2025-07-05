@@ -6,12 +6,14 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: WwiseObjectUtils
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "WwiseObjectUtils.h"
 
 #pragma pack(push, 0x1)
+
+class UWwiseExternalSourceStatics;
 
 /// Enum /Script/WwiseFileHandler.EWwiseLanguageRequirement
 /// Size: 0x01 (1 bytes)

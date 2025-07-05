@@ -6,12 +6,33 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: ImageWriteQueue
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "ImageWriteQueue.h"
 
 #pragma pack(push, 0x1)
+
+class UCompositionGraphCaptureProtocol;
+class UCompressedImageSequenceProtocol;
+class UFrameGrabberProtocol;
+class UImageSequenceProtocol;
+class UImageSequenceProtocol_BMP;
+class UImageSequenceProtocol_EXR;
+class UImageSequenceProtocol_JPG;
+class UImageSequenceProtocol_PNG;
+class ULevelCapture;
+class UMasterAudioSubmixCaptureProtocol;
+class UMovieSceneAudioCaptureProtocolBase;
+class UMovieSceneCapture;
+class UMovieSceneCaptureEnvironment;
+class UMovieSceneCaptureInterface;
+class UMovieSceneCaptureProtocolBase;
+class UMovieSceneImageCaptureProtocolBase;
+class UNullAudioCaptureProtocol;
+class UUserDefinedCaptureProtocol;
+class UUserDefinedImageCaptureProtocol;
+class UVideoCaptureProtocol;
 
 /// Enum /Script/MovieSceneCapture.EHDRCaptureGamut
 /// Size: 0x01 (1 bytes)

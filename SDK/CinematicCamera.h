@@ -6,11 +6,16 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class ACameraRig_Crane;
+class ACameraRig_Rail;
+class ACineCameraActor;
+class UCineCameraComponent;
 
 /// Enum /Script/CinematicCamera.ECameraFocusMethod
 /// Size: 0x01 (1 bytes)

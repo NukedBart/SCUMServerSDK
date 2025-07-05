@@ -6,11 +6,100 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class AGizmoActor;
+class AInternalToolFrameworkActor;
+class AIntervalGizmoActor;
+class ATransformGizmoActor;
+class UAnyButtonInputBehavior;
+class UAxisAngleGizmo;
+class UAxisAngleGizmoBuilder;
+class UAxisPositionGizmo;
+class UAxisPositionGizmoBuilder;
+class UBaseBrushTool;
+class UBrushBaseProperties;
+class UBrushStampIndicator;
+class UBrushStampIndicatorBuilder;
+class UClickDragInputBehavior;
+class UClickDragTool;
+class UClickDragToolBuilder;
+class UGizmoArrowComponent;
+class UGizmoAxisIntervalParameterSource;
+class UGizmoAxisRotationParameterSource;
+class UGizmoAxisScaleParameterSource;
+class UGizmoAxisSource;
+class UGizmoAxisTranslationParameterSource;
+class UGizmoBaseComponent;
+class UGizmoBaseFloatParameterSource;
+class UGizmoBaseTransformSource;
+class UGizmoBaseVec2ParameterSource;
+class UGizmoBoxComponent;
+class UGizmoCircleComponent;
+class UGizmoClickTarget;
+class UGizmoComponentAxisSource;
+class UGizmoComponentHitTarget;
+class UGizmoComponentWorldTransformSource;
+class UGizmoConstantAxisSource;
+class UGizmoConstantFrameAxisSource;
+class UGizmoFloatParameterSource;
+class UGizmoLambdaHitTarget;
+class UGizmoLambdaStateTarget;
+class UGizmoLineHandleComponent;
+class UGizmoLocalFloatParameterSource;
+class UGizmoLocalVec2ParameterSource;
+class UGizmoNilStateTarget;
+class UGizmoObjectModifyStateTarget;
+class UGizmoPlaneScaleParameterSource;
+class UGizmoPlaneTranslationParameterSource;
+class UGizmoRectangleComponent;
+class UGizmoScaledTransformSource;
+class UGizmoStateTarget;
+class UGizmoTransformChangeStateTarget;
+class UGizmoTransformProxyTransformSource;
+class UGizmoTransformSource;
+class UGizmoUniformScaleParameterSource;
+class UGizmoVec2ParameterSource;
+class UGizmoWorldAxisSource;
+class UInputBehavior;
+class UInputBehaviorSet;
+class UInputBehaviorSource;
+class UInputRouter;
+class UInteractionMechanic;
+class UInteractiveGizmo;
+class UInteractiveGizmoBuilder;
+class UInteractiveGizmoManager;
+class UInteractiveTool;
+class UInteractiveToolBuilder;
+class UInteractiveToolManager;
+class UInteractiveToolPropertySet;
+class UInteractiveToolsContext;
+class UIntervalGizmo;
+class UIntervalGizmoBuilder;
+class UKeyAsModifierInputBehavior;
+class ULocalClickDragInputBehavior;
+class UMeshSelectionSet;
+class UMeshSurfacePointTool;
+class UMeshSurfacePointToolBuilder;
+class UMouseHoverBehavior;
+class UMultiClickSequenceInputBehavior;
+class UMultiSelectionTool;
+class UPlanePositionGizmo;
+class UPlanePositionGizmoBuilder;
+class USelectionSet;
+class USingleClickInputBehavior;
+class USingleClickTool;
+class USingleClickToolBuilder;
+class USingleSelectionTool;
+class UToolContextTransactionProvider;
+class UToolFrameworkComponent;
+class UTransformGizmo;
+class UTransformGizmoBuilder;
+class UTransformProxy;
 
 /// Enum /Script/InteractiveToolsFramework.EInputCaptureState
 /// Size: 0x01 (1 bytes)

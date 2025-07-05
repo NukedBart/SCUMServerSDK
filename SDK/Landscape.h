@@ -6,13 +6,48 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
-/// dependency: Engine
-/// dependency: PhysicsCore
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "PhysicsCore.h"
 
 #pragma pack(push, 0x1)
+
+class AControlPointMeshActor;
+class ALandscape;
+class ALandscapeBlueprintBrushBase;
+class ALandscapeGizmoActiveActor;
+class ALandscapeGizmoActor;
+class ALandscapeMeshProxyActor;
+class ALandscapeProxy;
+class ALandscapeStreamingProxy;
+class UControlPointMeshComponent;
+class ULandscapeComponent;
+class ULandscapeGizmoRenderComponent;
+class ULandscapeGrassType;
+class ULandscapeHeightfieldCollisionComponent;
+class ULandscapeInfo;
+class ULandscapeInfoMap;
+class ULandscapeLODStreamingProxy;
+class ULandscapeLayerInfoObject;
+class ULandscapeMaterialInstanceConstant;
+class ULandscapeMeshCollisionComponent;
+class ULandscapeMeshProxyComponent;
+class ULandscapeSettings;
+class ULandscapeSplineControlPoint;
+class ULandscapeSplineSegment;
+class ULandscapeSplinesComponent;
+class ULandscapeSubsystem;
+class ULandscapeWeightmapUsage;
+class UMaterialExpressionLandscapeGrassOutput;
+class UMaterialExpressionLandscapeLayerBlend;
+class UMaterialExpressionLandscapeLayerCoords;
+class UMaterialExpressionLandscapeLayerSample;
+class UMaterialExpressionLandscapeLayerSwitch;
+class UMaterialExpressionLandscapeLayerWeight;
+class UMaterialExpressionLandscapePhysicalMaterialOutput;
+class UMaterialExpressionLandscapeVisibilityMask;
 
 /// Enum /Script/Landscape.ELandscapeBlendMode
 /// Size: 0x01 (1 bytes)

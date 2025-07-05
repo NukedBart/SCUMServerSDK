@@ -6,11 +6,25 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class AInstancedFoliageActor;
+class AInteractiveFoliageActor;
+class AProceduralFoliageBlockingVolume;
+class AProceduralFoliageVolume;
+class UFoliageInstancedStaticMeshComponent;
+class UFoliageStatistics;
+class UFoliageType;
+class UFoliageType_Actor;
+class UFoliageType_InstancedStaticMesh;
+class UInteractiveFoliageComponent;
+class UProceduralFoliageComponent;
+class UProceduralFoliageSpawner;
+class UProceduralFoliageTile;
 
 /// Enum /Script/Foliage.EFoliageScaling
 /// Size: 0x01 (1 bytes)

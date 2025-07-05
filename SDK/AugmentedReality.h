@@ -6,12 +6,64 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: MRMesh
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "MRMesh.h"
 
 #pragma pack(push, 0x1)
+
+class AARActor;
+class AAROriginActor;
+class AARSharedWorldGameMode;
+class AARSharedWorldGameState;
+class AARSharedWorldPlayerController;
+class AARSkyLight;
+class UARBaseAsyncTaskBlueprintProxy;
+class UARBasicLightEstimate;
+class UARBlueprintLibrary;
+class UARCandidateImage;
+class UARCandidateObject;
+class UARComponent;
+class UARDependencyHandler;
+class UAREnvironmentCaptureProbe;
+class UAREnvironmentCaptureProbeTexture;
+class UAREnvironmentProbeComponent;
+class UARFaceComponent;
+class UARFaceGeometry;
+class UARGeoAnchor;
+class UARGeoAnchorComponent;
+class UARGeoTrackingSupport;
+class UARGetCandidateObjectAsyncTaskBlueprintProxy;
+class UARImageComponent;
+class UARLifeCycleComponent;
+class UARLightEstimate;
+class UARMeshComponent;
+class UARMeshGeometry;
+class UARObjectComponent;
+class UARPin;
+class UARPlaneComponent;
+class UARPlaneGeometry;
+class UARPointComponent;
+class UARPoseComponent;
+class UARQRCodeComponent;
+class UARSaveWorldAsyncTaskBlueprintProxy;
+class UARSessionConfig;
+class UARTexture;
+class UARTextureCameraDepth;
+class UARTextureCameraImage;
+class UARTraceResultDummy;
+class UARTraceResultLibrary;
+class UARTrackableNotifyComponent;
+class UARTrackedGeometry;
+class UARTrackedImage;
+class UARTrackedObject;
+class UARTrackedPoint;
+class UARTrackedPose;
+class UARTrackedQRCode;
+class UARTypesDummyClass;
+class UCheckGeoTrackingAvailabilityAsyncTaskBlueprintProxy;
+class UGetGeoLocationAsyncTaskBlueprintProxy;
 
 /// Enum /Script/AugmentedReality.EARTrackingState
 /// Size: 0x01 (1 bytes)

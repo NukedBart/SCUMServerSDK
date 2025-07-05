@@ -6,10 +6,14 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UAssetRegistry;
+class UAssetRegistryHelpers;
+class UAssetRegistryImpl;
 
 #pragma pack(pop)
 

@@ -6,12 +6,14 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UFSR2Settings;
 
 /// Enum /Script/FSR2TemporalUpscaling.EFSR2LandscapeHISMMode
 /// Size: 0x04 (4 bytes)

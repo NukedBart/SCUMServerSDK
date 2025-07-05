@@ -6,12 +6,19 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: AnimationCore
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "AnimationCore.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UAnimNotify_PlayMontageNotify;
+class UAnimNotify_PlayMontageNotifyWindow;
+class UAnimSequencerInstance;
+class UKismetAnimationLibrary;
+class UPlayMontageCallbackProxy;
+class USequencerAnimationSupport;
 
 /// Enum /Script/AnimGraphRuntime.ESphericalLimitType
 /// Size: 0x01 (1 bytes)

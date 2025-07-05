@@ -6,15 +6,26 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: Chaos
-/// dependency: ChaosSolverEngine
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: FieldSystemEngine
-/// dependency: PhysicsCore
+#include "BasicType.h"
+#include "Chaos.h"
+#include "ChaosSolverEngine.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "FieldSystemEngine.h"
+#include "PhysicsCore.h"
 
 #pragma pack(push, 0x1)
+
+class AGeometryCollectionActor;
+class AGeometryCollectionDebugDrawActor;
+class AGeometryCollectionRenderLevelSetActor;
+class UChaosDestructionListener;
+class UGeometryCollection;
+class UGeometryCollectionCache;
+class UGeometryCollectionComponent;
+class UGeometryCollectionDebugDrawComponent;
+class USkeletalMeshSimulationComponent;
+class UStaticMeshSimulationComponent;
 
 /// Enum /Script/GeometryCollectionEngine.EChaosBreakingSortMethod
 /// Size: 0x01 (1 bytes)

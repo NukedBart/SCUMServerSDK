@@ -6,19 +6,39 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: AnimationCore
-/// dependency: AnimGraphRuntime
-/// dependency: CoreUObject
-/// dependency: DeveloperSettings
-/// dependency: Engine
-/// dependency: LevelSequence
-/// dependency: MovieScene
-/// dependency: MovieSceneTracks
-/// dependency: PropertyPath
-/// dependency: RigVM
+#include "BasicType.h"
+#include "AnimationCore.h"
+#include "AnimGraphRuntime.h"
+#include "CoreUObject.h"
+#include "DeveloperSettings.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "LevelSequence.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "PropertyPath.h"
+#include "RigVM.h"
 
 #pragma pack(push, 0x1)
+
+class AControlRigControlActor;
+class AControlRigGizmoActor;
+class UAdditiveControlRig;
+class UControlRig;
+class UControlRigAnimInstance;
+class UControlRigBlueprintGeneratedClass;
+class UControlRigComponent;
+class UControlRigGizmoLibrary;
+class UControlRigLayerInstance;
+class UControlRigNumericalValidationPass;
+class UControlRigObjectHolder;
+class UControlRigSequence;
+class UControlRigSequencerAnimInstance;
+class UControlRigSettings;
+class UControlRigValidationPass;
+class UControlRigValidator;
+class UFKControlRig;
+class UMovieSceneControlRigParameterSection;
+class UMovieSceneControlRigParameterTrack;
 
 /// Enum /Script/ControlRig.EControlRigComponentMapDirection
 /// Size: 0x01 (1 bytes)

@@ -6,11 +6,17 @@
 ********************************************************/
 
 #pragma once
-/// dependency: ClothingSystemRuntimeCommon
-/// dependency: ClothingSystemRuntimeInterface
-/// dependency: CoreUObject
+#include "ClothingSystemRuntimeCommon.h"
+#include "ClothingSystemRuntimeInterface.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UChaosClothConfig;
+class UChaosClothSharedSimConfig;
+class UChaosClothingInteractor;
+class UChaosClothingSimulationFactory;
+class UChaosClothingSimulationInteractor;
 
 /// Enum /Script/ChaosCloth.EChaosClothTetherMode
 /// Size: 0x01 (1 bytes)

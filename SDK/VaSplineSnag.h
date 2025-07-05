@@ -6,11 +6,15 @@
 ********************************************************/
 
 #pragma once
-/// dependency: ConZ
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "ConZ.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class ASplineSnagGeneratedHierarchical_C;
+class ASplineSnagGeneratedInstanced_C;
+class ASplineSnagGeneratedSpline_C;
 
 #pragma pack(pop)
 

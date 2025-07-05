@@ -6,11 +6,27 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class AReplicationGraphDebugActor;
+class UBasicReplicationGraph;
+class UNetReplicationGraphConnection;
+class UReplicationGraph;
+class UReplicationGraphNode;
+class UReplicationGraphNode_ActorList;
+class UReplicationGraphNode_ActorListFrequencyBuckets;
+class UReplicationGraphNode_AlwaysRelevant;
+class UReplicationGraphNode_AlwaysRelevant_ForConnection;
+class UReplicationGraphNode_ConnectionDormancyNode;
+class UReplicationGraphNode_DormancyNode;
+class UReplicationGraphNode_DynamicSpatialFrequency;
+class UReplicationGraphNode_GridCell;
+class UReplicationGraphNode_GridSpatialization2D;
+class UReplicationGraphNode_TearOff_ForConnection;
 
 #pragma pack(pop)
 

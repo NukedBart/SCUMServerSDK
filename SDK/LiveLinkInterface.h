@@ -6,10 +6,26 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class ULiveLinkAnimationRole;
+class ULiveLinkBasicRole;
+class ULiveLinkCameraRole;
+class ULiveLinkController;
+class ULiveLinkCurveRemapSettings;
+class ULiveLinkFrameInterpolationProcessor;
+class ULiveLinkFramePreProcessor;
+class ULiveLinkFrameTranslator;
+class ULiveLinkLightRole;
+class ULiveLinkRole;
+class ULiveLinkSourceFactory;
+class ULiveLinkSourceSettings;
+class ULiveLinkSubjectSettings;
+class ULiveLinkTransformRole;
+class ULiveLinkVirtualSubject;
 
 /// Enum /Script/LiveLinkInterface.ELiveLinkCameraProjectionMode
 /// Size: 0x01 (1 bytes)

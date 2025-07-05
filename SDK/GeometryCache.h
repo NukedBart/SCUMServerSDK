@@ -6,11 +6,23 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class AGeometryCacheActor;
+class UGeometryCache;
+class UGeometryCacheCodecBase;
+class UGeometryCacheCodecRaw;
+class UGeometryCacheCodecV1;
+class UGeometryCacheComponent;
+class UGeometryCacheTrack;
+class UGeometryCacheTrackStreamable;
+class UGeometryCacheTrack_FlipbookAnimation;
+class UGeometryCacheTrack_TransformAnimation;
+class UGeometryCacheTrack_TransformGroupAnimation;
 
 #pragma pack(pop)
 

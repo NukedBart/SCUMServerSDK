@@ -6,12 +6,21 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: InputCore
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "InputCore.h"
 
 #pragma pack(push, 0x1)
+
+class UAsyncTask_LoadXRDeviceVisComponent;
+class UHandKeypointConversion;
+class UHeadMountedDisplayFunctionLibrary;
+class UMotionControllerComponent;
+class UMotionTrackedDeviceFunctionLibrary;
+class UVRNotificationsComponent;
+class UXRAssetFunctionLibrary;
+class UXRLoadingScreenFunctionLibrary;
 
 /// Enum /Script/HeadMountedDisplay.EXRVisualType
 /// Size: 0x01 (1 bytes)

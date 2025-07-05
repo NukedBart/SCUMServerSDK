@@ -6,10 +6,18 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
+#include "BasicType.h"
+#include "CoreUObject.h"
 
 #pragma pack(push, 0x1)
+
+class UClothConfigBase;
+class UClothPhysicalMeshDataBase_Legacy;
+class UClothSharedSimConfigBase;
+class UClothingAssetBase;
+class UClothingInteractor;
+class UClothingSimulationFactory;
+class UClothingSimulationInteractor;
 
 #pragma pack(pop)
 

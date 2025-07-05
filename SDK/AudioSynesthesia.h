@@ -6,12 +6,21 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: AudioAnalyzer
-/// dependency: CoreUObject
-/// dependency: Engine
+#include "BasicType.h"
+#include "AudioAnalyzer.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UAudioSynesthesiaNRT;
+class UAudioSynesthesiaNRTSettings;
+class UConstantQNRT;
+class UConstantQNRTSettings;
+class ULoudnessNRT;
+class ULoudnessNRTSettings;
+class UOnsetNRT;
+class UOnsetNRTSettings;
 
 /// Enum /Script/AudioSynesthesia.EConstantQFFTSizeEnum
 /// Size: 0x01 (1 bytes)

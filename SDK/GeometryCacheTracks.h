@@ -6,12 +6,15 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CoreUObject
-/// dependency: GeometryCache
-/// dependency: MovieScene
+#include "BasicType.h"
+#include "CoreUObject.h"
+#include "GeometryCache.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class UMovieSceneGeometryCacheSection;
+class UMovieSceneGeometryCacheTrack;
 
 #pragma pack(pop)
 

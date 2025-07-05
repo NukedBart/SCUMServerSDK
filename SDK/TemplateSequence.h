@@ -6,13 +6,26 @@
 ********************************************************/
 
 #pragma once
-/// dependency: BasicType
-/// dependency: CinematicCamera
-/// dependency: CoreUObject
-/// dependency: Engine
-/// dependency: MovieScene
+#include "BasicType.h"
+#include "CinematicCamera.h"
+#include "CoreUObject.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
+#include "merged_AudioMixer_Engine_UMG_MovieScene_MovieSceneTracks.h"
 
 #pragma pack(push, 0x1)
+
+class ATemplateSequenceActor;
+class UCameraAnimationSequence;
+class USequenceCameraShakeCameraStandIn;
+class USequenceCameraShakePattern;
+class USequenceCameraShakeSequencePlayer;
+class UTemplateSequence;
+class UTemplateSequencePlayer;
+class UTemplateSequencePropertyScalingEvaluatorSystem;
+class UTemplateSequencePropertyScalingInstantiatorSystem;
+class UTemplateSequenceSection;
+class UTemplateSequenceSystem;
+class UTemplateSequenceTrack;
 
 /// Enum /Script/TemplateSequence.ETemplateSectionPropertyScaleType
 /// Size: 0x04 (4 bytes)

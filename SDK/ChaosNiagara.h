@@ -6,11 +6,14 @@
 ********************************************************/
 
 #pragma once
-/// dependency: CoreUObject
-/// dependency: Niagara
-/// dependency: NiagaraCore
+#include "CoreUObject.h"
+#include "Niagara.h"
+#include "NiagaraCore.h"
 
 #pragma pack(push, 0x1)
+
+class UNiagaraDataInterfaceChaosDestruction;
+class UNiagaraDataInterfacePhysicsField;
 
 /// Enum /Script/ChaosNiagara.ELocationZToSpawnEnum
 /// Size: 0x01 (1 bytes)
